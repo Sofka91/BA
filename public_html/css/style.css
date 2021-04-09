@@ -1,0 +1,280 @@
+
+
+
+
+
+*{
+    box-sizing: border-box;  /* content-box*/
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    font-size: 10px;  /* 1rem*/
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'CircularStd-Book';
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    width: 1160px;
+    margin:0px auto;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+/*header start*/
+
+header{
+    background-color: #1D314E;
+    padding: 24px 0;
+}
+
+.date{
+    color: #586C88;
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+    letter-spacing: 0.11px;
+    text-align: right;
+    margin-bottom: 1.9rem;
+}
+
+header .navigation ul li{
+    float: left;
+    margin-left: 7.4rem;
+}
+
+header .navigation ul a{
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+    letter-spacing: 0.11px;
+    text-align: center;
+    color: #CDD9EB;
+    text-transform: uppercase;
+    padding-top: 25px;
+}
+
+.navigation li{
+    list-style:none;
+}
+
+header .logo{
+    margin: 0;
+}
+
+/*header end*/
+
+/*main start*/
+
+main h2{
+    font-family: 'CircularStd-Book';
+    font-size: 3rem;
+    line-height: 3.5rem;
+    letter-spacing: normal;
+    text-align: center;
+    color: #CDD9EB;
+}
+main h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    letter-spacing: normal;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 13px;
+    margin-bottom: 39px;
+   
+}
+
+.lead-people a{
+    font-family: 'CircularStd-Bold';
+    font-size: 1.4rem;
+    line-height: 1.2rem;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #CDD9EB;
+    border: 2px solid #CDD9EB;
+    padding: 14px 10px 14px 10px;
+    display: inline-block;
+}
+
+header .navigation ul a.active,
+header .navigation ul a:hover{
+    font-family: 'CircularStd-Black';
+    color: #FFFFFF;
+}
+
+header .logo a{
+    display: block;
+}
+
+.lead-people{
+    padding: 168px 0 169px;
+    text-align: center;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.news{
+    padding: 70px 0px 67px;
+    background-color: #F1F6FF;
+}
+
+.news .news-item{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+
+.news .news-item:last-of-type{
+    margin-right: 0%;
+}
+
+.news .news-item .news-item-title{
+    margin-bottom: 18px;
+}
+
+.news .news-item .news-item-date{
+    color: #ADB8C7;
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-top: 17px;
+    margin-bottom: 10px;
+    
+}
+
+.news .news-item .news-item-content{
+    margin-bottom: 21px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2.2rem;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3B4D66;
+}
+
+
+.news .read-more{
+    font-size: 1.4rem;
+    line-height: 1.2rem;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #586C88;
+}
+
+/*footer start*/
+
+footer{
+    background-color: #1D314E;
+    padding: 70px 0px 62px;
+}
+
+
+.footer-left{
+    float: left;
+    width: 30%;
+    margin-right: 10%;
+}
+
+.footer-logo{
+    margin-bottom: 35px;
+}
+
+footer .footer-left p{
+    font-size: 1.4rem;
+    line-height: 22px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #CDD9EB;
+    
+}
+
+footer .navigation-meni{
+    float: left;
+    width: 30%;
+    padding-top: 15px;
+}
+
+.footer-content{
+    margin-bottom: 80px;
+}
+
+
+footer .navigation-meni ul li{
+    float: left;
+    width: 50%;
+}
+
+footer .navigation-meni ul li a{
+    font-family: 'CircularStd-Medium';
+    line-height: 1.2rem;
+    letter-spacing: 0.11px;
+    text-align: left;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+footer .social{
+    float: right;
+    width: 30%;
+    padding-right: 100px;
+    padding-top: 15px;
+    margin-right: -20%;
+}
+
+footer .social p a{
+    color:#CDD9EB;
+    margin-left: 21px;
+}
+
+footer .copyright{
+    float: right;
+    margin-top: 173px;
+    margin-bottom: 62px;
+    color: #CDD9EB;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.13px;
+    text-align: center;
+}
+
+footer .navigation-meni .meni .home{
+    text-decoration: underline;
+}
+
+footer .navigation-meni .about{
+    margin-top: 20px;
+}
+
+footer .navigation-meni .contact{
+    margin-top: 20px;
+}
+.social a{
+    display: inline-block;
+}
